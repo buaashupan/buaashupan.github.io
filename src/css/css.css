@@ -112,13 +112,13 @@ nav{
 }
 nav .innerBox{
 	height: 100%;
-	overflow: hidden;
 }
 nav ul{
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	overflow-x: scroll;
 	/*overflow-x: auto; 水平滚动 */
 	/*transition: transform 0.3s ease; */
 	white-space: nowrap; /* 防止内容换行 */
@@ -130,14 +130,6 @@ nav li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.nav-left {
-  float: left;
-}
-
-.nav-right {
-  float: right;
 }
 
 nav li.active{
