@@ -112,6 +112,7 @@ nav{
 }
 nav .innerBox{
 	height: 100%;
+	overflow: hidden;
 }
 nav ul{
 	height: 100%;
