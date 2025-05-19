@@ -118,7 +118,8 @@ nav ul{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	overflow-x: auto; /* 水平滚动 */
+	/*overflow-x: auto; 水平滚动 */
+	transition: transform 0.3s ease;
 	white-space: nowrap; /* 防止内容换行 */
 }
 nav li{
