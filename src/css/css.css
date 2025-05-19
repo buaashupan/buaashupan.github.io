@@ -118,6 +118,8 @@ nav ul{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	overflow-x: auto; /* 水平滚动 */
+	white-space: nowrap; /* 防止内容换行 */
 }
 nav li{
 	height: 100%;
