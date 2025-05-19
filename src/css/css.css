@@ -122,6 +122,10 @@ nav ul{
 	/*transition: transform 0.3s ease; */
 	white-space: nowrap; /* 防止内容换行 */
 }
+nav ul:hover{
+	overflow-x: scroll;
+}
+
 nav li{
 	height: 100%;
 	float: left;
@@ -139,9 +143,7 @@ nav li a{
 	font-size: 16px;
 	color: #f1f1f1;
 }
-nav li a:hover{
-	overflow-x: scroll;
-}
+
 nav li a:hover,nav li a:active,nav li a:visited{
 	color: #FFFFFF;
 	text-decoration: underline;
